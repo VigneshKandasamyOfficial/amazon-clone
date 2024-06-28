@@ -1,0 +1,95 @@
+/* Set html and body to take up full height */
+html,
+body {
+    height: 100%;
+    margin: 0;
+}
+
+/* Set the wrapper to be a flex container and take full height */
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* Set main to take up the remaining space */
+main {
+    flex: 1;
+}
+
+.footer {
+    background-color: #232f3e;
+    /* Amazon's footer background color */
+    color: #ffffff;
+    padding: 30px 20px;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.footer-section {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.footer-section h4 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+.footer-section ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin-bottom: 5px;
+}
+
+.footer-section ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.footer-section ul li a:hover {
+    color: #ffd700;
+    /* Amazon's yellow hover color */
+}
+
+.footer-bottom {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid #ffffff;
+    padding-top: 20px;
+}
+
+.footer-bottom-links ul {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer-bottom-links ul li {
+    margin-right: 10px;
+}
+
+.footer-bottom-copy {
+    font-size: 0.8rem;
+}
+
+.footer-bottom-copy a {
+    color: #ffffff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.footer-bottom-copy a:hover {
+    color: #ffd700;
+    /* Amazon's yellow hover color */
+}
