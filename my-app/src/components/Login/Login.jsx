@@ -9,7 +9,7 @@ const Login = () => {
       <h2>Sign-In</h2>
       <form>
         <div className="form-group">
-          <label>Email or mobile phone number</label>
+          <label>Email or Mobile number</label>
           <input type="email" required />
         </div>
         <div className="form-group">
